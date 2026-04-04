@@ -78,7 +78,7 @@ const en = {
   },
   footer: {
     made_with: 'made with Copilot & Codex',
-    if_useful_star: 'If you find it useful, please star →',
+    if_useful_star: 'base user knowage to do this page →',
     powered_by: 'Powered by TMDB',
     friendship_link: 'Link exchange: ',
     friendship_link_site: ' Game Preference Grid',

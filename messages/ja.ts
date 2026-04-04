@@ -49,11 +49,11 @@ const ja = {
   ],
   ui: {
     tip_edit:
-      'ヒント：上部タイトル、マスのタイトル、または映画名をクリックして編集できます。画像をマスにドラッグ＆ドロップすることも可能です。',
+      'ヒント：上部タイトル、マスのタイトル、または映画名をクリックして編集できます。画像をマスにドラッグ＆ドロップすることも可能です。filmarksさんにお世話になりありがとうございます。',
     tip_edit_mobile:
       'ヒント：アプリ内ブラウザでの利用は避けてください（画像保存に失敗する可能性があります）。また、主タイトル／各マスのタイトル／映画名はいずれも編集できます。',
     tip_prefix: 'ヒント：',
-    tip_edit_mobile_highlight: '豆瓣などのアプリ内ブラウザは使用しないでください',
+    tip_edit_mobile_highlight: 'アプリ内ブラウザは使用しないでください',
     tip_edit_mobile_middle:
       '（画像保存に失敗する可能性があります）。また、主タイトルと各マスのタイトル・名前は',
     tip_edit_mobile_highlight2: 'すべて変更可能',
@@ -82,7 +82,7 @@ const ja = {
   },
   footer: {
     made_with: 'made with Copilot & Codex',
-    if_useful_star: '役に立ったら Star をお願いします →',
+    if_useful_star: 'このウェブサイトはGITHUBの知見により構築されています →',
     powered_by: 'Powered by TMDB',
     friendship_link: '関連リンク：',
     friendship_link_site: 'ゲーム人生・個人嗜好表',

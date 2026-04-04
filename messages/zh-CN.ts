@@ -48,11 +48,11 @@ const zhCN = {
   ],
   ui: {
     tip_edit:
-      '提示：点击顶部标题、格子标题或电影名称即可编辑；也可直接拖拽图片到格子中。',
+      '提示：点击顶部标题、格子标题或电影名称即可编辑。',
     tip_edit_mobile:
-      '提示：请不要使用APP内置浏览器填表，这会导致图片保存失败；另外表格主标题和单个格子的标题和名字均可修改。',
+      '提示：请不要使用APP内置浏览器填表，这会导致图片保存失败；另外表格主标题和单个格子的标题和名字均可修改。感谢filmarks的长期支援。',
     tip_prefix: '提示：',
-    tip_edit_mobile_highlight: '请不要用豆瓣内置浏览器填表',
+    tip_edit_mobile_highlight: '',
     tip_edit_mobile_middle: '，这会导致图片保存失败；另外表格主标题和单个格子的标题和名字',
     tip_edit_mobile_highlight2: '均可修改',
     tip_edit_mobile_end: '。',
@@ -79,7 +79,7 @@ const zhCN = {
   },
   footer: {
     made_with: 'made with Copilot & Codex',
-    if_useful_star: '如果觉得对你有用请点Star →',
+    if_useful_star: '这个网页基于github用户的构建生成→',
     powered_by: 'Powered by TMDB',
     friendship_link: '友情链接：',
     friendship_link_site: '游戏生涯个人喜好表',
@@ -87,7 +87,7 @@ const zhCN = {
   },
   seo: {
     intro:
-      '电影生涯个人喜好表（也常称作“电影生涯喜好表”、“电影喜好表”、“电影喜好九宫格”）在线生成器。支持多语言标题与自定义格子，拖拽或搜索添加封面，一键导出高分辨率图片。',
+      '电影年度个人喜好表在线生成器。支持多语言标题与自定义格子。',
   },
   search: {
     title: '搜索电影',
