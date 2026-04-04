@@ -149,7 +149,7 @@ export default function Home() {
           </div>
         </div>
       )}
-      <FeedbackSidebarTrigger />
+      
       <LanguageSwitcher />
 
       {/* SEO 优化：语义化标题 */}
