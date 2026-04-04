@@ -1,0 +1,146 @@
+const ja = {
+  meta: {
+    title: '映画人生・個人嗜好表｜映画好み表ジェネレーター',
+    description:
+      'あなたの映画人生・嗜好表（映画好み表／9マス）を作成。多言語対応＆マスのカスタム、ワンクリックで高画質画像を書き出し。',
+    keywords: [
+      '映画人生嗜好表',
+      '映画人生個人嗜好表',
+      '映画好み表',
+      '映画9マス',
+      '映画好み9マス',
+      '嗜好表ジェネレーター',
+    ],
+  },
+  global: {
+    main_title: '2025年映画個人好みリスト',
+  },
+  cell_titles: [
+    '最も好きな一本',
+    '最も特別意味を持つ',
+    'ベスト脚本',
+    '最も独創的',
+    'ベスト映像',
+    'ベスト衣装・美術',
+    'ベスト撮影',
+    'ベスト音楽',
+    '最も迷走',
+    '最もスリル',
+    '最も恐怖',
+    '最も絶望',
+    'LGBTQテーマ',
+    'ゲイテーマ',
+    'レズビアンテーマ',
+    'トランスジェンダーテーマ',
+    'ジェンダーテーマ',
+    '最も青春',
+    '最も感動',
+    '最も衝撃',
+    '最も悲しい',
+    '最も面白い',
+    '最もセクシー',
+    '最も読めない',
+    '最低俗',
+    '最も理解不能',
+    '最も生々しい',
+    'ベスト・アニメ',
+    'ミュージカル',
+    'ドキュメンタリー',
+  ],
+  ui: {
+    tip_edit:
+      'ヒント：上部タイトル、マスのタイトル、または映画名をクリックして編集できます。画像をマスにドラッグ＆ドロップすることも可能です。',
+    tip_edit_mobile:
+      'ヒント：アプリ内ブラウザでの利用は避けてください（画像保存に失敗する可能性があります）。また、主タイトル／各マスのタイトル／映画名はいずれも編集できます。',
+    tip_prefix: 'ヒント：',
+    tip_edit_mobile_highlight: '豆瓣などのアプリ内ブラウザは使用しないでください',
+    tip_edit_mobile_middle:
+      '（画像保存に失敗する可能性があります）。また、主タイトルと各マスのタイトル・名前は',
+    tip_edit_mobile_highlight2: 'すべて変更可能',
+    tip_edit_mobile_end: 'です。',
+    generate: '{title} を生成！',
+  },
+  dialog: {
+    edit_title: 'タイトルを編集',
+    edit_movie_name: '映画名を編集',
+    edit_main_title: '主タイトルを編集',
+    crop_image: '画像をトリミング',
+  },
+  common: {
+    cancel: 'キャンセル',
+    save: '保存',
+    share: '共有',
+    download_directly: '直接ダウンロード',
+    close: '閉じる',
+    confirm: '確認',
+    tip: 'ヒント',
+  },
+  settings: {
+    prefer_english_poster: '英語版ポスターを優先',
+    poster_preference_tooltip:
+      'オンにしても画質が改善しない場合は、英語タイトルで再検索するのがおすすめです。',
+  },
+  footer: {
+    made_with: 'made with Copilot & Codex',
+    if_useful_star: '役に立ったら Star をお願いします →',
+    powered_by: 'Powered by TMDB',
+    friendship_link: '関連リンク：',
+    friendship_link_site: 'ゲーム人生・個人嗜好表',
+    feedback_button: 'サイト利用フィードバック',
+  },
+  seo: {
+    intro:
+      '映画人生・個人嗜好表（「映画好み表」「映画好み9マス」とも）オンラインジェネレーター。多言語タイトル＆マスのカスタム対応。ドラッグや検索でポスターを追加し、高解像度画像をワンクリックで書き出し。',
+  },
+  search: {
+    title: '映画を検索',
+    title_person: '人物を検索',
+    source: '検索ソース：',
+    placeholder: '映画タイトルを入力して検索',
+    placeholder_person: '名前を入力',
+    searching: '検索中',
+    search: '検索',
+    retry: '再試行',
+    no_results: '該当する映画が見つかりません',
+    no_results_person: '該当する人物が見つかりません',
+    try_keywords: '別のキーワードを試してください',
+    idle_hint: '映画タイトルを入力して検索',
+    idle_hint_person: '名前を入力して検索',
+    results_count: '{count} 件見つかりました',
+    clear: 'クリア',
+    upload_image: '画像をアップロード',
+  },
+  crop: {
+    title: '画像をトリミング',
+    tip: 'ドラッグ／ズームして範囲を調整してください',
+    zoom: 'ズーム',
+  },
+  preview: {
+    title: '画像プレビュー',
+    long_press_tip: '保存ボタンが効かない場合は、画像を長押しして保存してください',
+  },
+  error: {
+    file_too_large: '画像ファイルが大きすぎます（{size} 未満にしてください）',
+    invalid_file_type: '画像ファイルのみアップロード可能です',
+    image_load_failed: '画像の読み込みに失敗しました',
+    image_load_failed_retry: '画像の読み込みに失敗しました。再試行してください',
+    image_load_failed_select_another:
+      '画像の読み込みに失敗しました。再試行するか別の画像を選んでください',
+    loading: '読み込み中...',
+    processing: '処理中...',
+    canvas_context_error: 'Canvas コンテキストを取得できません',
+    canvas_create_error: 'Canvas コンテキストを作成できません',
+    read_image_failed: '画像の読み取りに失敗しました',
+    read_file_error: 'ファイルの読み取りエラー',
+    invalid_image_format: '画像形式が無効です',
+    crop_image_failed: '画像のトリミングに失敗しました',
+  },
+  warning: {
+    storage_unavailable:
+      '⚠️ 現在のブラウザ環境ではデータ保存ができません（プライベートモード等）。更新すると内容が消えます。プライベートモードを解除してください。',
+    in_app_browser:
+      'アプリ内ブラウザが検出されました。保存に失敗する可能性があります。システムブラウザ等で開くことをおすすめします。',
+  },
+};
+
+export default ja;
