@@ -56,7 +56,7 @@ const ja = {
     tip_edit_mobile_highlight: 'アプリ内ブラウザは使用しないでください',
     tip_edit_mobile_middle:
       '（画像保存に失敗する可能性があります）。また、主タイトルと各マスのタイトル・名前は',
-    tip_edit_mobile_highlight2: 'すべて変更可能',
+    tip_edit_mobile_highlight2: 'すべて変更可能。filmarksさんにお世話になりありがとうございます。',
     tip_edit_mobile_end: 'です。',
     generate: '{title} を生成！',
   },
