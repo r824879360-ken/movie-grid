@@ -1,6 +1,6 @@
 const en = {
   meta: {
-    title: 'Movie Preference Grid | Movie Grid Generator',
+    title: 'Movie Year Preference | Movie Grid Generator',
     description: 'Create your movie preference grid (movie grid/9-grid), supports multiple languages and custom cells, export high-quality images with one click.',
     keywords: [
       'movie preference grid',
