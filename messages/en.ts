@@ -78,7 +78,7 @@ const en = {
   },
   footer: {
     made_with: 'made with Copilot & Codex',
-    if_useful_star: 'base user knowage to do this page →',
+    if_useful_star: 'This webpage is modified from code on GitHub. →',
     powered_by: 'Powered by TMDB',
     friendship_link: 'Link exchange: ',
     friendship_link_site: ' Game Preference Grid',
