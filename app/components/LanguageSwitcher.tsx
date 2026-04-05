@@ -10,7 +10,8 @@ export function LanguageSwitcher() {
   const [isOpen, setIsOpen] = useState(false);
 
   const languages = [
-    { code: 'zh-CN', name: '简体中文', short: '中' },
+    { code: 'zh-CN', name: '简体中文', short: '简' },
+    { value: 'zh-TW', label: '繁體中文' , short: '繁' }, // ← 加这个
     { code: 'ja', name: '日本語', short: '日' },
     { code: 'en', name: 'English', short: 'EN' },
   ];
