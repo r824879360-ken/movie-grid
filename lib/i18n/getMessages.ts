@@ -9,6 +9,8 @@ export async function getMessages(locale: Locale): Promise<Messages> {
     case 'zh-CN':
     default:
       return (await import('../../messages/zh-CN')).default;
+    case 'zh-TW':
+      return (await import('../../messages/zh-TW')).default;
       case 'ja':
   return (await import('../../messages/ja')).default;
   }

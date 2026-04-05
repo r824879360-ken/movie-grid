@@ -1,19 +1,20 @@
-export type Locale = 'zh-CN' | 'en' | 'ja';
+export type Locale = 'zh-CN' | 'zh-TW' | 'en' | 'ja';
 
-export const locales: Locale[] = ['zh-CN', 'en', 'ja'];
+export const locales: Locale[] = ['zh-CN','zh-TW' , 'en', 'ja'];
 
 export const defaultLocale: Locale = 'ja'; // 如果你想默认日文；不想的话可保留 'en'
 
 // Map common language tags to our supported locales
 const langMap: Record<string, Locale> = {
-  // Chinese
+  // Simplified Chinese
   'zh-CN': 'zh-CN',
   zh: 'zh-CN',
   'zh-Hans': 'zh-CN',
-  'zh-TW': 'zh-CN',
-  'zh-HK': 'zh-CN',
-  'zh-Hant': 'zh-CN',
 
+  // Traditional Chinese
+  'zh-TW': 'zh-TW',
+  'zh-HK': 'zh-TW',
+  'zh-Hant': 'zh-TW',
   // Japanese
   ja: 'ja',
   'ja-JP': 'ja',
