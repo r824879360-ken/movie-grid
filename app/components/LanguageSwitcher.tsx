@@ -11,7 +11,7 @@ export function LanguageSwitcher() {
 
   const languages = [
     { code: 'zh-CN', name: '简体中文', short: '简' },
-    { code: 'zh-TW', label: '繁體中文' , short: '繁' }, // ← 加这个
+    { code: 'zh-TW', name: '繁體中文' , short: '繁' }, // ← 加这个
     { code: 'ja', name: '日本語', short: '日' },
     { code: 'en', name: 'English', short: 'EN' },
   ];
